@@ -15,3 +15,44 @@ p {
   color: #555;
   font-size: 18px;
 }
+#products {
+  padding: 50px 20px;
+  background-color: #fff8f0;
+}
+
+#products h2 {
+  color: #d2691e;
+  margin-bottom: 30px;
+}
+
+.product-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.product-item {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.product-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.product-item h3 {
+  color: #333;
+  margin: 10px 0 5px;
+}
+
+.product-item p {
+  color: #555;
+  font-size: 14px;
+}
